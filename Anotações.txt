@@ -1,0 +1,41 @@
+O que é venv? 
+
+O venv é um módulo nativo do Python usado para criar ambientes virtuais isolados, garantindo que cada projeto tenha suas próprias dependências e versões de bibliotecas. Isso evita conflitos entre pacotes de diferentes projetos e mantém o Python do sistema limpo
+
+1- Abrir cmd e criar venv em python dentro da sua pasta
+
+    python -m venv venv
+                    |
+                    |--> Nome da pasta (de preferência "venv")
+
+
+
+obs*: Caso não apareça "(venv) C:\" ao lado esquerdo do terminal.
+
+Utilizar o seguinte comando para ativar: 
+
+    .\venv\Scripts\activate
+
+
+
+obs*: Caso você queira desativar o ambiente usar o seguinte comando no terminal:
+
+    deactivate
+
+---------------------------------------------------------------------------------------------------------------------
+
+2- No terminal digitar:
+
+    pytest
+
+---------------------------------------------------------------------------------------------------------------------
+
+3- Criar um arquivo com (test_...) ou (..._test) 
+
+---------------------------------------------------------------------------------------------------------------------
+
+4- Usando o "pytest" no terminal, ele lista o que esta errado e certo
+
+    pytest 
+    pytest -v (mostra mais informações)
+ 
