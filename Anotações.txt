@@ -39,3 +39,10 @@ obs*: Caso você queira desativar o ambiente usar o seguinte comando no terminal
     pytest 
     pytest -v (mostra mais informações)
  
+---------------------------------------------------------------------------------------------------------------------
+
+instalar pytest
+
+pip install pytest
+
+---------------------------------------------------------------------------------------------------------------------
